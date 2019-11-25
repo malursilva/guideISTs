@@ -9,7 +9,7 @@ import com.github.malursilva.model.Disease
 import kotlinx.android.synthetic.main.view_holder_main.view.*
 
 class MainRecyclerViewAdapter(
-    private var list: List<Disease>,
+    private var list: ArrayList<Disease>,
     val onItemClick: ((Disease) -> Unit)?
 ) : RecyclerView.Adapter<MainRecyclerViewAdapter.ViewHolder>() {
 
@@ -25,6 +25,10 @@ class MainRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(list[position])
+    }
+
+    override fun onAttachedToRecyclerView(recyclerView: RecyclerView) {
+        super.onAttachedToRecyclerView(recyclerView)
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

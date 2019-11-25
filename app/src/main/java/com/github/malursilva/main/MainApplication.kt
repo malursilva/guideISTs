@@ -8,7 +8,7 @@ import io.realm.Realm
 import io.realm.RealmConfiguration
 
 class MainApplication : Application() {
-    private val databaseManager: DatabaseManager = DatabaseManager()
+//    private val databaseManager: DatabaseManager = DatabaseManager()
 
     companion object {
         var ctx: Context? = null

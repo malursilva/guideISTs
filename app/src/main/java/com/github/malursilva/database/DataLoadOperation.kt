@@ -7,7 +7,7 @@ import io.realm.Realm
 
 class DataLoadOperation {
     private val system = Resources.getSystem()
-    private val realm: Realm = Realm.getDefaultInstance()
+//    private val realm: Realm = Realm.getDefaultInstance()
 
     fun init() {
 //        val listDisease = createDiseases()

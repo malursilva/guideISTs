@@ -10,14 +10,14 @@ class DiseaseDetailsPresenter {
         if(disease.waysOfContraction != null) {
             text += "Assim se pega: "
             disease.waysOfContraction!!.forEach {
-                text += "${it}; "
+                text += "\n     - ${it}"
             }
             text += "\n\n"
         }
         if(disease.nonWaysOfContraction != null) {
             text += "Assim não se pega: "
             disease.nonWaysOfContraction!!.forEach {
-                text += "${it}; "
+                text += "\n     - ${it}"
             }
             text += "\n\n"
         }

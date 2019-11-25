@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.github.malursilva.R
 import com.github.malursilva.main.details.DiseaseDetailsActivity
 import com.github.malursilva.model.Disease
@@ -14,19 +15,28 @@ class MainActivity : AppCompatActivity() {
         const val DISEASE = "disease"
     }
 
-    private val presenter: MainPresenter = MainPresenter()
+    private lateinit var presenter: MainPresenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setUp()
+        presenter = MainPresenter(this)
+        setUpView()
     }
 
-    private fun setUp() {
-        supportActionBar?.setDisplayShowTitleEnabled(false)
+    override fun onResume() {
+        super.onResume()
+        main_recycler_view.adapter?.notifyDataSetChanged()
+    }
+
+    private fun setUpView() {
         main_recycler_view.apply {
+            setHasFixedSize(true)
+            layoutManager = LinearLayoutManager(this.context).apply {
+                orientation = LinearLayoutManager.VERTICAL
+            }
             adapter = MainRecyclerViewAdapter(
-                presenter.getDataList(),
+                presenter.createData(),
                 onItemClick = { disease -> showDiseaseDetails(disease) }
             )
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))

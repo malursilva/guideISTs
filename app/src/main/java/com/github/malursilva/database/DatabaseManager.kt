@@ -6,7 +6,7 @@ import io.realm.Realm
 class DatabaseManager(
     private val dataLoadOperation: DataLoadOperation = DataLoadOperation()
 ) {
-    private val realm: Realm = Realm.getDefaultInstance()
+//    private val realm: Realm = Realm.getDefaultInstance()
 
     fun init() {
         dataLoadOperation.init()
