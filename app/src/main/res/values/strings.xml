@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">GuideISTs</string>
+    <string name="db_filename">diseasesDB</string>
+    <string name="name_disease_1">HIV - imunodeficiência humana</string>
+    <string name="summary_disease_1">HIV é a sigla em inglês do vírus da imunodeficiência humana.
+        Causador da aids, ataca o sistema imunológico, responsável por defender o organismo de doenças.
+        As células mais atingidas são os linfócitos T CD4+.
+        E é alterando o DNA dessa célula que o HIV faz cópias de si mesmo.
+        Depois de se multiplicar, rompe os linfócitos em busca de outros para continuar a infecção.</string>
+    <string name="wayOfContraction_1_disease_1">Sexo vaginal sem camisinha</string>
+    <string name="wayOfContraction_2_disease_1">Sexo anal sem camisinha</string>
+    <string name="wayOfContraction_3_disease_1">Sexo oral sem camisinha</string>
+    <string name="wayOfContraction_4_disease_1">Uso de seringa por mais de uma pessoa</string>
+    <string name="wayOfContraction_5_disease_1">Transfusão de sangue contaminado</string>
+    <string name="wayOfContraction_6_disease_1">Da mãe infectada para seu filho durante a gravidez, no parto e na amamentação</string>
+    <string name="wayOfContraction_7_disease_1">Instrumentos que furam ou cortam não esterilizados</string>
+    <string name="nonWayOfContraction_1_disease_1">Sexo desde que se use corretamente a camisinha</string>
+    <string name="nonWayOfContraction_2_disease_1">Masturbação a dois</string>
+    <string name="nonWayOfContraction_3_disease_1">Beijo no rosto ou na boca</string>
+    <string name="nonWayOfContraction_4_disease_1">Suor e lágrima</string>
+    <string name="nonWayOfContraction_5_disease_1">Picada de inseto</string>
+    <string name="nonWayOfContraction_6_disease_1">Aperto de mão ou abraço</string>
+    <string name="nonWayOfContraction_7_disease_1">Sabonete/toalha/lençóis</string>
+    <string name="nonWayOfContraction_8_disease_1">Talheres/copos</string>
+    <string name="nonWayOfContraction_9_disease_1">Assento de ônibus</string>
+    <string name="nonWayOfContraction_10_disease_1">Piscina</string>
+    <string name="nonWayOfContraction_11_disease_1">Banheiro</string>
+    <string name="nonWayOfContraction_12_disease_1">Doação de sangue</string>
+    <string name="nonWayOfContraction_13_disease_1">Pelo ar</string>
+    <string name="symptoms_disease_1">Os sintomas podem levar anos para ocorrerem por isso após 30 dias de uma exposição (relação sexual sem preservativo) necessita realizar um teste para identificar de fato se é portador do vírus.
+        Os sintomas mais comuns  são: febre, diarreia, suores noturnos e emagrecimento.
+        Uma vez não tratado permite o aparecimento de doenças oportunistas, Com isso, atinge-se o estágio mais avançado da doença, a aids.
+        Quem chega a essa fase, pode sofrer de hepatites virais, tuberculose, pneumonia, toxoplasmose e alguns tipos de câncer.</string>
+    <string name="reference_disease_1">http://www.aids.gov.br/pt-br</string>
+    <string name="name_disease_2">Gonorreia/Clamídia </string>
+    <string name="summary_disease_2">São IST causadas por bactérias (Neisseria gonorrhoeae e Chlamydia trachomatis, respectivamente).
+        Na maioria das vezes estão associadas, causando a infecção que atinge os órgãos genitais, a garganta e os olhos.</string>
+    <string name="symptoms_disease_2">Dor ao urinar ou no baixo ventre (pé da barriga), corrimento amarelado ou claro, fora da época da menstruação, dor ou sangramento durante a relação sexual.
+        A maioria das mulheres infectadas não apresentam sinais e sintomas.
+        Os homens podem apresentar ardor e esquentamento ao urinar, podendo haver corrimento ou pus, além de dor nos testículos.</string>
+</resources>
